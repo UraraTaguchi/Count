@@ -14,6 +14,7 @@
 		E41B2ED31A89F0F500B9791E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41B2ED21A89F0F500B9791E /* Images.xcassets */; };
 		E41B2ED61A89F0F500B9791E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E41B2ED41A89F0F500B9791E /* LaunchScreen.xib */; };
 		E41B2EE21A89F0F500B9791E /* CountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B2EE11A89F0F500B9791E /* CountTests.m */; };
+		E41B2EEC1A89F53C00B9791E /* IMG_3429.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E41B2EEB1A89F53C00B9791E /* IMG_3429.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E41B2EDB1A89F0F500B9791E /* CountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41B2EE01A89F0F500B9791E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41B2EE11A89F0F500B9791E /* CountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountTests.m; sourceTree = "<group>"; };
+		E41B2EEB1A89F53C00B9791E /* IMG_3429.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3429.JPG; path = ../../../Downloads/IMG_3429.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		E41B2EC41A89F0F500B9791E /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				E41B2EEB1A89F53C00B9791E /* IMG_3429.JPG */,
 				E41B2EC91A89F0F500B9791E /* AppDelegate.h */,
 				E41B2ECA1A89F0F500B9791E /* AppDelegate.m */,
 				E41B2ECC1A89F0F500B9791E /* ViewController.h */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41B2ED11A89F0F500B9791E /* Main.storyboard in Resources */,
+				E41B2EEC1A89F53C00B9791E /* IMG_3429.JPG in Resources */,
 				E41B2ED61A89F0F500B9791E /* LaunchScreen.xib in Resources */,
 				E41B2ED31A89F0F500B9791E /* Images.xcassets in Resources */,
 			);

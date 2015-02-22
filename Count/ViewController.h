@@ -10,6 +10,19 @@
 
 @interface ViewController : UIViewController
 
+{
+    int number;
+    IBOutlet UILabel *label;
+    
+}
+
+-(IBAction)plus;
+-(IBAction)minas;
+-(IBAction)clear;
+-(IBAction)plus3;
+-(IBAction)multiple;
+-(IBAction)divide;
+-(IBAction)redColor;
 
 @end
 

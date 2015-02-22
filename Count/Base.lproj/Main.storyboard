@@ -1,25 +1,125 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgu-2K-hUU">
+                                <rect key="frame" x="86" y="15" width="161" height="106"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="90"/>
+                                <color key="textColor" red="0.43065140724517281" green="0.62041976661162801" blue="0.82532354797979801" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPj-f6-tuq">
+                                <rect key="frame" x="0.0" y="338" width="62" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.72026909722222221" green="0.36947695264909997" blue="0.51880771057090669" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="plus" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2Et-Lj-wSb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3429.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="0S4-lf-Dmj">
+                                <rect key="frame" x="-3" y="107" width="326" height="223"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sj9-rg-TfD">
+                                <rect key="frame" x="119" y="319" width="62" height="55"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="0.72026909722222221" green="0.63073551669598715" blue="0.38637386785986066" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="minas" destination="vXZ-lx-hvc" eventType="touchUpInside" id="x02-K1-IE6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLX-Bb-bR4">
+                                <rect key="frame" x="-30" y="427" width="257" height="151"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="0.49713418452091201" green="0.72026909722222221" blue="0.54201421869287902" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clear" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2g9-zf-pYs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYu-lo-nCj">
+                                <rect key="frame" x="244" y="362" width="67" height="39"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
+                                <size key="titleShadowOffset" width="5" height="5"/>
+                                <state key="normal" title="+3">
+                                    <color key="titleColor" red="0.61020525482705312" green="0.62636021125458408" blue="0.72026909722222221" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="plus3" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WYG-aY-hYq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtZ-BU-3tT">
+                                <rect key="frame" x="105" y="383" width="49" height="64"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                                <state key="normal" title="÷">
+                                    <color key="titleColor" red="0.46032257593384979" green="0.69593633046603443" blue="0.72026909722222221" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="divide" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lPH-4M-8vT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bC-o4-c9L">
+                                <rect key="frame" x="244" y="494" width="79" height="66"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                                <state key="normal" title="R">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="redColor" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PxK-ze-TeN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGu-M4-2Bm">
+                                <rect key="frame" x="211" y="400" width="30" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNU-r1-xPd">
+                                <rect key="frame" x="195" y="400" width="63" height="96"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
+                                <state key="normal" title="×">
+                                    <color key="titleColor" red="0.72026909722222221" green="0.24724012901117975" blue="0.2242948497700713" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="multiple" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UnH-pD-Ie5"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="label" destination="pgu-2K-hUU" id="48p-CU-B7I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="177" y="319"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_3429.JPG" width="1024" height="731"/>
+    </resources>
 </document>
